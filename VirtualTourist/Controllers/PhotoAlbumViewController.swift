@@ -143,7 +143,6 @@ class PhotoAlbumViewController: UIViewController, UICollectionViewDataSource, UI
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "PhotoViewCell", for: indexPath) as! PhotoViewCell
         let photo = fetchedResultsController.object(at: indexPath)
-        cell.imageView.image = UIImage(named: "placeholder")
         cell.theIndicator.startAnimating()
         
         if photo.imageData != nil {
