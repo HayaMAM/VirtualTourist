@@ -7,25 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E01982722D3929000F8A4B3 /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E01982622D3929000F8A4B3 /* FlickrAPI.swift */; };
+		2E01982922D392B600F8A4B3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E01982822D392B600F8A4B3 /* Constants.swift */; };
+		2E7E179C22CFF7B900D2866F /* PinExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7E179B22CFF7B900D2866F /* PinExtension.swift */; };
 		2ED4602622C7F55D00E8FECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4602522C7F55D00E8FECB /* AppDelegate.swift */; };
-		2ED4602822C7F55D00E8FECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4602722C7F55D00E8FECB /* ViewController.swift */; };
+		2ED4602822C7F55D00E8FECB /* TheMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4602722C7F55D00E8FECB /* TheMapViewController.swift */; };
 		2ED4602B22C7F55D00E8FECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED4602922C7F55D00E8FECB /* Main.storyboard */; };
 		2ED4602D22C7F55F00E8FECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ED4602C22C7F55F00E8FECB /* Assets.xcassets */; };
 		2ED4603022C7F55F00E8FECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ED4602E22C7F55F00E8FECB /* LaunchScreen.storyboard */; };
+		2ED4603E22C7FBFA00E8FECB /* VirtualTouristUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4603D22C7FBFA00E8FECB /* VirtualTouristUITests.swift */; };
+		2ED4604C22C7FC1F00E8FECB /* VirtualTouristTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED4604B22C7FC1F00E8FECB /* VirtualTouristTests.swift */; };
+		2EEB37E722C8E7B600A31141 /* VirtualTourist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB37E522C8E7B600A31141 /* VirtualTourist.xcdatamodeld */; };
+		2EEB37EA22C8EB5E00A31141 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB37E922C8EB5E00A31141 /* PhotoViewCell.swift */; };
+		2EEB37EC22C9015300A31141 /* PhotoAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB37EB22C9015300A31141 /* PhotoAlbumViewController.swift */; };
+		2EEB37F022C9340600A31141 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEB37EF22C9340600A31141 /* DataController.swift */; };
+		2EEDEBA622CD915D004B1672 /* executeOnMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEDEBA522CD915D004B1672 /* executeOnMain.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2ED4604022C7FBFA00E8FECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ED4601A22C7F55D00E8FECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED4602122C7F55D00E8FECB;
+			remoteInfo = VirtualTourist;
+		};
+		2ED4604E22C7FC1F00E8FECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2ED4601A22C7F55D00E8FECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ED4602122C7F55D00E8FECB;
+			remoteInfo = VirtualTourist;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2E01982622D3929000F8A4B3 /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		2E01982822D392B600F8A4B3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2E7E179B22CFF7B900D2866F /* PinExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinExtension.swift; sourceTree = "<group>"; };
 		2ED4602222C7F55D00E8FECB /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ED4602522C7F55D00E8FECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2ED4602722C7F55D00E8FECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2ED4602722C7F55D00E8FECB /* TheMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMapViewController.swift; sourceTree = "<group>"; };
 		2ED4602A22C7F55D00E8FECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ED4602C22C7F55F00E8FECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2ED4602F22C7F55F00E8FECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2ED4603122C7F55F00E8FECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED4603B22C7FBFA00E8FECB /* VirtualTouristUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualTouristUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED4603D22C7FBFA00E8FECB /* VirtualTouristUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTouristUITests.swift; sourceTree = "<group>"; };
+		2ED4603F22C7FBFA00E8FECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2ED4604922C7FC1F00E8FECB /* VirtualTouristTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VirtualTouristTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED4604B22C7FC1F00E8FECB /* VirtualTouristTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualTouristTests.swift; sourceTree = "<group>"; };
+		2ED4604D22C7FC1F00E8FECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EEB37E622C8E7B600A31141 /* VirtualTourist.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VirtualTourist.xcdatamodel; sourceTree = "<group>"; };
+		2EEB37E922C8EB5E00A31141 /* PhotoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
+		2EEB37EB22C9015300A31141 /* PhotoAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAlbumViewController.swift; sourceTree = "<group>"; };
+		2EEB37EF22C9340600A31141 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2EEDEBA522CD915D004B1672 /* executeOnMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = executeOnMain.swift; path = "../../../Downloads/VirtualTourist_ /VirtualTourist_/executeOnMain.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2ED4601F22C7F55D00E8FECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED4603822C7FBFA00E8FECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED4604622C7FC1F00E8FECB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				2ED4602422C7F55D00E8FECB /* VirtualTourist */,
+				2ED4603C22C7FBFA00E8FECB /* VirtualTouristUITests */,
+				2ED4604A22C7FC1F00E8FECB /* VirtualTouristTests */,
 				2ED4602322C7F55D00E8FECB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				2ED4602222C7F55D00E8FECB /* VirtualTourist.app */,
+				2ED4603B22C7FBFA00E8FECB /* VirtualTouristUITests.xctest */,
+				2ED4604922C7FC1F00E8FECB /* VirtualTouristTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,13 +114,55 @@
 			isa = PBXGroup;
 			children = (
 				2ED4602522C7F55D00E8FECB /* AppDelegate.swift */,
-				2ED4602722C7F55D00E8FECB /* ViewController.swift */,
+				2EEB37E822C8E7C500A31141 /* Model */,
+				2EEB37E222C8E4AA00A31141 /* Controllers */,
 				2ED4602922C7F55D00E8FECB /* Main.storyboard */,
+				2EEDEBA522CD915D004B1672 /* executeOnMain.swift */,
 				2ED4602C22C7F55F00E8FECB /* Assets.xcassets */,
 				2ED4602E22C7F55F00E8FECB /* LaunchScreen.storyboard */,
 				2ED4603122C7F55F00E8FECB /* Info.plist */,
+				2E01982622D3929000F8A4B3 /* FlickrAPI.swift */,
+				2E01982822D392B600F8A4B3 /* Constants.swift */,
 			);
 			path = VirtualTourist;
+			sourceTree = "<group>";
+		};
+		2ED4603C22C7FBFA00E8FECB /* VirtualTouristUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2ED4603D22C7FBFA00E8FECB /* VirtualTouristUITests.swift */,
+				2ED4603F22C7FBFA00E8FECB /* Info.plist */,
+			);
+			path = VirtualTouristUITests;
+			sourceTree = "<group>";
+		};
+		2ED4604A22C7FC1F00E8FECB /* VirtualTouristTests */ = {
+			isa = PBXGroup;
+			children = (
+				2ED4604B22C7FC1F00E8FECB /* VirtualTouristTests.swift */,
+				2ED4604D22C7FC1F00E8FECB /* Info.plist */,
+			);
+			path = VirtualTouristTests;
+			sourceTree = "<group>";
+		};
+		2EEB37E222C8E4AA00A31141 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2ED4602722C7F55D00E8FECB /* TheMapViewController.swift */,
+				2EEB37E922C8EB5E00A31141 /* PhotoViewCell.swift */,
+				2EEB37EB22C9015300A31141 /* PhotoAlbumViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EEB37E822C8E7C500A31141 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2EEB37E522C8E7B600A31141 /* VirtualTourist.xcdatamodeld */,
+				2EEB37EF22C9340600A31141 /* DataController.swift */,
+				2E7E179B22CFF7B900D2866F /* PinExtension.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +185,42 @@
 			productReference = 2ED4602222C7F55D00E8FECB /* VirtualTourist.app */;
 			productType = "com.apple.product-type.application";
 		};
+		2ED4603A22C7FBFA00E8FECB /* VirtualTouristUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED4604222C7FBFA00E8FECB /* Build configuration list for PBXNativeTarget "VirtualTouristUITests" */;
+			buildPhases = (
+				2ED4603722C7FBFA00E8FECB /* Sources */,
+				2ED4603822C7FBFA00E8FECB /* Frameworks */,
+				2ED4603922C7FBFA00E8FECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED4604122C7FBFA00E8FECB /* PBXTargetDependency */,
+			);
+			name = VirtualTouristUITests;
+			productName = VirtualTouristUITests;
+			productReference = 2ED4603B22C7FBFA00E8FECB /* VirtualTouristUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		2ED4604822C7FC1F00E8FECB /* VirtualTouristTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2ED4605022C7FC1F00E8FECB /* Build configuration list for PBXNativeTarget "VirtualTouristTests" */;
+			buildPhases = (
+				2ED4604522C7FC1F00E8FECB /* Sources */,
+				2ED4604622C7FC1F00E8FECB /* Frameworks */,
+				2ED4604722C7FC1F00E8FECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2ED4604F22C7FC1F00E8FECB /* PBXTargetDependency */,
+			);
+			name = VirtualTouristTests;
+			productName = VirtualTouristTests;
+			productReference = 2ED4604922C7FC1F00E8FECB /* VirtualTouristTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +233,14 @@
 				TargetAttributes = {
 					2ED4602122C7F55D00E8FECB = {
 						CreatedOnToolsVersion = 10.2;
+					};
+					2ED4603A22C7FBFA00E8FECB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2ED4602122C7F55D00E8FECB;
+					};
+					2ED4604822C7FC1F00E8FECB = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 2ED4602122C7F55D00E8FECB;
 					};
 				};
 			};
@@ -113,6 +258,8 @@
 			projectRoot = "";
 			targets = (
 				2ED4602122C7F55D00E8FECB /* VirtualTourist */,
+				2ED4603A22C7FBFA00E8FECB /* VirtualTouristUITests */,
+				2ED4604822C7FC1F00E8FECB /* VirtualTouristTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +275,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2ED4603922C7FBFA00E8FECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED4604722C7FC1F00E8FECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -135,12 +296,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ED4602822C7F55D00E8FECB /* ViewController.swift in Sources */,
+				2EEB37E722C8E7B600A31141 /* VirtualTourist.xcdatamodeld in Sources */,
+				2E01982922D392B600F8A4B3 /* Constants.swift in Sources */,
+				2E7E179C22CFF7B900D2866F /* PinExtension.swift in Sources */,
+				2EEB37F022C9340600A31141 /* DataController.swift in Sources */,
+				2ED4602822C7F55D00E8FECB /* TheMapViewController.swift in Sources */,
+				2EEDEBA622CD915D004B1672 /* executeOnMain.swift in Sources */,
 				2ED4602622C7F55D00E8FECB /* AppDelegate.swift in Sources */,
+				2EEB37EC22C9015300A31141 /* PhotoAlbumViewController.swift in Sources */,
+				2EEB37EA22C8EB5E00A31141 /* PhotoViewCell.swift in Sources */,
+				2E01982722D3929000F8A4B3 /* FlickrAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED4603722C7FBFA00E8FECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED4603E22C7FBFA00E8FECB /* VirtualTouristUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2ED4604522C7FC1F00E8FECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED4604C22C7FC1F00E8FECB /* VirtualTouristTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2ED4604122C7FBFA00E8FECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED4602122C7F55D00E8FECB /* VirtualTourist */;
+			targetProxy = 2ED4604022C7FBFA00E8FECB /* PBXContainerItemProxy */;
+		};
+		2ED4604F22C7FC1F00E8FECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2ED4602122C7F55D00E8FECB /* VirtualTourist */;
+			targetProxy = 2ED4604E22C7FC1F00E8FECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2ED4602922C7F55D00E8FECB /* Main.storyboard */ = {
@@ -314,6 +512,84 @@
 			};
 			name = Release;
 		};
+		2ED4604322C7FBFA00E8FECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VG28F7H8D;
+				INFOPLIST_FILE = VirtualTouristUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayamousa.VirtualTouristUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualTourist;
+			};
+			name = Debug;
+		};
+		2ED4604422C7FBFA00E8FECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VG28F7H8D;
+				INFOPLIST_FILE = VirtualTouristUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayamousa.VirtualTouristUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VirtualTourist;
+			};
+			name = Release;
+		};
+		2ED4605122C7FC1F00E8FECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VG28F7H8D;
+				INFOPLIST_FILE = VirtualTouristTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayamousa.VirtualTouristTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualTourist.app/VirtualTourist";
+			};
+			name = Debug;
+		};
+		2ED4605222C7FC1F00E8FECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VG28F7H8D;
+				INFOPLIST_FILE = VirtualTouristTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hayamousa.VirtualTouristTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VirtualTourist.app/VirtualTourist";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -335,7 +611,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2ED4604222C7FBFA00E8FECB /* Build configuration list for PBXNativeTarget "VirtualTouristUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED4604322C7FBFA00E8FECB /* Debug */,
+				2ED4604422C7FBFA00E8FECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2ED4605022C7FC1F00E8FECB /* Build configuration list for PBXNativeTarget "VirtualTouristTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2ED4605122C7FC1F00E8FECB /* Debug */,
+				2ED4605222C7FC1F00E8FECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2EEB37E522C8E7B600A31141 /* VirtualTourist.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2EEB37E622C8E7B600A31141 /* VirtualTourist.xcdatamodel */,
+			);
+			currentVersion = 2EEB37E622C8E7B600A31141 /* VirtualTourist.xcdatamodel */;
+			path = VirtualTourist.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2ED4601A22C7F55D00E8FECB /* Project object */;
 }
