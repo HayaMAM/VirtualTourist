@@ -143,22 +143,6 @@ class FlickrAPI {
         return components.url!
     }
     
-//    func escapedParameters(_ parameters: [String:AnyObject]) -> String {
-//        
-//        if parameters.isEmpty {
-//            return ""
-//        } else {
-//            var keyValuePairs = [String]()
-//            for (key, value) in parameters {
-//                
-//                let stringValue = "\(value)"
-//                let escapedValue = stringValue.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-//                keyValuePairs.append(key + "=" + "\(escapedValue!)")
-//            }
-//            return "?\(keyValuePairs.joined(separator: "&"))"
-//        }
-//    }
-    
     private func convertDataWithCompletionHandler(_ data: Data, completionHandlerForConvertData: (_ result: AnyObject?, _ error: NSError?) -> Void) {
         
         var parsedResult: AnyObject! = nil

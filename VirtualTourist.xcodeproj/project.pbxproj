@@ -117,12 +117,12 @@
 				2EEB37E822C8E7C500A31141 /* Model */,
 				2EEB37E222C8E4AA00A31141 /* Controllers */,
 				2ED4602922C7F55D00E8FECB /* Main.storyboard */,
-				2EEDEBA522CD915D004B1672 /* executeOnMain.swift */,
 				2ED4602C22C7F55F00E8FECB /* Assets.xcassets */,
 				2ED4602E22C7F55F00E8FECB /* LaunchScreen.storyboard */,
 				2ED4603122C7F55F00E8FECB /* Info.plist */,
 				2E01982622D3929000F8A4B3 /* FlickrAPI.swift */,
 				2E01982822D392B600F8A4B3 /* Constants.swift */,
+				2EEDEBA522CD915D004B1672 /* executeOnMain.swift */,
 			);
 			path = VirtualTourist;
 			sourceTree = "<group>";
