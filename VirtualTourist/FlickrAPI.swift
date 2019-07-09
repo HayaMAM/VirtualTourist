@@ -50,7 +50,7 @@ class FlickrAPI {
                 showError("Cannot find the key")
                 return
             }
-            executeOnMain {
+            DispatchQueue.main.async {
                 
                 let context = DataController.shared.viewContext
                 

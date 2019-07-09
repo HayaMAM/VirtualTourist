@@ -95,7 +95,7 @@ class PhotoAlbumViewController: UIViewController, UICollectionViewDataSource, UI
                 self.theLabel.isHidden = false
                 return
             }
-            executeOnMain {
+            DispatchQueue.main.async {
                 if results != nil {
                 self.photos = results!
                 try? self.context.save()
@@ -146,7 +146,7 @@ class PhotoAlbumViewController: UIViewController, UICollectionViewDataSource, UI
         cell.theIndicator.startAnimating()
         
         if photo.imageData != nil {
-            executeOnMain {
+            DispatchQueue.main.async {
                 cell.theIndicator.stopAnimating()
                 cell.theIndicator.isHidden = true
 
@@ -159,7 +159,7 @@ class PhotoAlbumViewController: UIViewController, UICollectionViewDataSource, UI
                     self.displayAlert(title: "Image data error", message: error)
                     return
                 }
-                executeOnMain {
+                DispatchQueue.main.async {
                     photo.imageData = imageData as Data?
                     cell.theIndicator.stopAnimating()
                     cell.theIndicator.isHidden = true
