@@ -91,11 +91,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="QpE-IS-dZA">
-                                <rect key="frame" x="0.0" y="92" width="414" height="726"/>
+                                <rect key="frame" x="20" y="138" width="374" height="680"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="726" id="1eO-5w-eFT"/>
-                                </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aBq-Gn-GCd">
                                     <size key="itemSize" width="132" height="129"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -166,18 +163,16 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ZAT-b5-MuU" firstAttribute="bottom" secondItem="gCR-Yi-Bjz" secondAttribute="bottom" id="1A1-UO-o9p"/>
-                            <constraint firstItem="QpE-IS-dZA" firstAttribute="leading" secondItem="ZAT-b5-MuU" secondAttribute="leading" id="2JV-Qs-PGi"/>
-                            <constraint firstItem="QpE-IS-dZA" firstAttribute="leading" secondItem="gCR-Yi-Bjz" secondAttribute="leading" id="8w4-F4-gj3"/>
+                            <constraint firstItem="gCR-Yi-Bjz" firstAttribute="trailing" secondItem="QpE-IS-dZA" secondAttribute="trailing" constant="20" id="6WG-S7-egV"/>
                             <constraint firstAttribute="trailing" secondItem="ZAT-b5-MuU" secondAttribute="trailing" id="ASr-Ui-wCp"/>
+                            <constraint firstItem="QpE-IS-dZA" firstAttribute="leading" secondItem="gCR-Yi-Bjz" secondAttribute="leading" constant="20" id="MZP-4P-nfK"/>
                             <constraint firstItem="kN1-bE-v0d" firstAttribute="centerY" secondItem="5iP-me-zBN" secondAttribute="centerY" id="QNR-dV-eD6"/>
-                            <constraint firstItem="QpE-IS-dZA" firstAttribute="bottom" secondItem="ZAT-b5-MuU" secondAttribute="top" id="Rkg-TB-aAQ"/>
+                            <constraint firstItem="QpE-IS-dZA" firstAttribute="top" secondItem="gCR-Yi-Bjz" secondAttribute="top" constant="50" id="WN6-H7-3vg"/>
+                            <constraint firstItem="ZAT-b5-MuU" firstAttribute="top" secondItem="QpE-IS-dZA" secondAttribute="bottom" id="XP1-hY-uD6"/>
                             <constraint firstItem="ZAT-b5-MuU" firstAttribute="leading" secondItem="5iP-me-zBN" secondAttribute="leading" id="Xkj-27-zvX"/>
-                            <constraint firstItem="ZAT-b5-MuU" firstAttribute="top" secondItem="QpE-IS-dZA" secondAttribute="bottom" id="bAm-UI-o1I"/>
                             <constraint firstItem="oKq-DA-HXg" firstAttribute="centerY" secondItem="ZAT-b5-MuU" secondAttribute="centerY" id="cWd-ut-RNW"/>
                             <constraint firstItem="kN1-bE-v0d" firstAttribute="centerX" secondItem="5iP-me-zBN" secondAttribute="centerX" id="dPU-sX-9Rg"/>
-                            <constraint firstItem="QpE-IS-dZA" firstAttribute="trailing" secondItem="ZAT-b5-MuU" secondAttribute="trailing" id="f6g-fP-Q5q"/>
                             <constraint firstItem="oKq-DA-HXg" firstAttribute="centerX" secondItem="5iP-me-zBN" secondAttribute="centerX" id="gHY-Ya-lrb"/>
-                            <constraint firstItem="QpE-IS-dZA" firstAttribute="trailing" secondItem="gCR-Yi-Bjz" secondAttribute="trailing" id="n39-xg-xbA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gCR-Yi-Bjz"/>
                     </view>
