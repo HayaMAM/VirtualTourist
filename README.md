@@ -8,6 +8,7 @@ for the city weather that they're interested to go to. It shows the weather of t
 * Swift 
 * UIKit framework
 * Core Location framework
+* [Dark Sky API](https://darksky.net/dev/docs)
 
 ## Credits 
 * [Weather Icons](https://icons8.com/icon/pack/weather/plasticine)
