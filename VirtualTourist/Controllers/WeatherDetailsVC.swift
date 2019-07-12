@@ -2,7 +2,7 @@
 //  WeatherDetailsVC.swift
 //  VirtualTourist
 //
-//  Created by Haya Mousa on 12/07/2019.
+//  Created by Haya Mousa on 9/07/2019.
 //  Copyright © 2019 HayaMousa. All rights reserved.
 //
 
@@ -21,7 +21,7 @@ class WeatherDetailsVC: UITableViewController, UISearchBarDelegate {
         super.viewDidLoad()
         weatherForSearch.delegate = self
         getWeatherLocation(location: "Riyadh")
-        navigationItem.title = "City Weather"
+        navigationItem.title = "Weather"
         activityIndicator.center = self.tableView.center
         activityIndicator.hidesWhenStopped = true
         activityIndicator.style = UIActivityIndicatorView.Style.whiteLarge
@@ -37,7 +37,6 @@ class WeatherDetailsVC: UITableViewController, UISearchBarDelegate {
         if let locationString = searchBar.text, !locationString.isEmpty {
             getWeatherLocation(location: locationString)
         }
-        
     }
     
     func updateTheUI(processing: Bool){
@@ -106,13 +105,9 @@ class WeatherDetailsVC: UITableViewController, UISearchBarDelegate {
         
         let weatherObject = weatherData[indexPath.section]
         cell.textLabel?.text = weatherObject.summary
-        cell.detailTextLabel?.text = "\(Int(weatherObject.temperature)) °C, Humidity: \((weatherObject.humidity)) %"
+        cell.detailTextLabel?.text = "\(Int(weatherObject.temperature)) °C, Humidity: \((weatherObject.humidity))%"
         cell.imageView?.image = UIImage(named: weatherObject.icon)
         
         return cell
     }
-    
-    
-    
-    
 }
