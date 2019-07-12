@@ -10,5 +10,5 @@ for the city weather that they're interested to go to. It shows the weather of t
 * Core Location framework
 
 ## Credits 
-[Weather Icons](https://icons8.com/icon/pack/weather/plasticine)
+* [Weather Icons](https://icons8.com/icon/pack/weather/plasticine)
 
