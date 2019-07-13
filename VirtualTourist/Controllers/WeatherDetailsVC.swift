@@ -63,10 +63,15 @@ class WeatherDetailsVC: UITableViewController, UISearchBarDelegate {
         
         self.updateTheUI(processing: true)
         CLGeocoder().geocodeAddressString(location) { (placemarks:[CLPlacemark]?, error:Error?) in
+            
+            guard error == nil else {
+                self.displayAlert(title: "Unable to get results", message: error?.localizedDescription)
+                self.updateTheUI(processing: false)
+                return
+            }
             if error == nil {
                 if let location = placemarks?.first?.location {
                     Weather.forecast(withLocation: location.coordinate, completion: { (results:[Weather]?) in
-                        
                         if let weatherData = results {
                             self.weatherData = weatherData
                             
@@ -74,9 +79,6 @@ class WeatherDetailsVC: UITableViewController, UISearchBarDelegate {
                                 self.tableView.reloadData()
                                 self.updateTheUI(processing: false)
                             }
-                        }else {
-                            self.displayAlert(title: "Unable to get results", message: error?.localizedDescription)
-                            return
                         }
                     })
                 }
