@@ -5,9 +5,8 @@ that they pick using the flicker API. Users can add pins by pressing the on the 
 for the city weather that they're interested to go to. It shows the weather of the whole week. 
 
 [![Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-24.png](https://i.postimg.cc/9f7w2DYf/Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-24.png)](https://postimg.cc/hJKtbPwF)
-![alt text](https://ibb.co/hL7Ds0x)
-![alt text](https://ibb.co/VBkHGTH)
-
+[![Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-45.png](https://i.postimg.cc/6589gD0W/Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-45.png)](https://postimg.cc/QHrGWYww)
+[![Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-47-27.png](https://i.postimg.cc/zv61qGjJ/Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-47-27.png)](https://postimg.cc/p5fSZx47)
 ## Used Technologies in Virtual Tourist & You Decide Project
 * Swift 5
 * UIKit framework
