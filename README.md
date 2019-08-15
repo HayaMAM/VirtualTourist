@@ -10,7 +10,7 @@ for the city weather that they're interested to go to. It shows the weather of t
 [![Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-47-27.png](https://i.postimg.cc/zv61qGjJ/Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-47-27.png)](https://postimg.cc/p5fSZx47)
 
 
-## Used Technologies in Virtual Tourist & You Decide Project
+## Used Technologies in Virtual Tourist Project
 * Swift 5
 * UIKit framework
 * CoreLocation framework
