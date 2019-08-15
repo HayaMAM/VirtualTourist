@@ -4,9 +4,12 @@ Vitual Tourist is an application that gives the ability for tourists to navigate
 that they pick using the flicker API. Users can add pins by pressing the on the desired location which will move them to an ablum of picures from that location. For the You Decide Project I added the Dark Sky API so that tourists can search
 for the city weather that they're interested to go to. It shows the weather of the whole week. 
 
+
 [![Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-24.png](https://i.postimg.cc/9f7w2DYf/Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-24.png)](https://postimg.cc/hJKtbPwF)
 [![Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-45.png](https://i.postimg.cc/6589gD0W/Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-43-45.png)](https://postimg.cc/QHrGWYww)
 [![Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-47-27.png](https://i.postimg.cc/zv61qGjJ/Simulator-Screen-Shot-i-Phone-SE-2019-08-15-at-04-47-27.png)](https://postimg.cc/p5fSZx47)
+
+
 ## Used Technologies in Virtual Tourist & You Decide Project
 * Swift 5
 * UIKit framework
